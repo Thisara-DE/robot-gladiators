@@ -10,6 +10,7 @@ var enemyName = "Roberto";
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+// fight variable
 var fight = function() {
     // Alert players that they are starting the round
     window.alert("Welcome to Robot Gladiators!");
@@ -56,8 +57,7 @@ var fight = function() {
         // if no (false), ask question again by running fight() again
         else {
             fight();
-        }
-        
+        }        
     } else {
         window.alert("You need to choose a valid option. Try again!");
     }    
